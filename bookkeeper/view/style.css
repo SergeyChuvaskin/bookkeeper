@@ -1,0 +1,30 @@
+QPushButton {
+    background-color: #e7e7e7;
+    color: black;
+    border-radius: 8px;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+
+}
+
+QGroupBox {
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+QGroupBox::title {
+  subcontrol-origin: margin;
+  subcontrol-position: top center;
+  padding: 0 3px;
+  background-color: #e7e7e7;
+  font-size: 36px;
+  color: black;
+
+  border-radius: 5px;
+
+
+}

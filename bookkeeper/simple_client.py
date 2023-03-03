@@ -6,6 +6,7 @@ from bookkeeper.models.category import Category
 from bookkeeper.models.expense import Expense
 from bookkeeper.repository.memory_repository import MemoryRepository
 from bookkeeper.utils import read_tree
+from bookkeeper.repository import sqlite_repository
 
 cat_repo = MemoryRepository[Category]()
 exp_repo = MemoryRepository[Expense]()
